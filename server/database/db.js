@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const Connection = async () => {
-    const URL = `mongodb://127.0.0.1:27017/quest`;
+    const URL = `mongodb+srv://<Abhijeet>:<dbquiz>@cluster0.0invvaw.mongodb.net/?appName=Cluster0/quest`;
     try{
         await mongoose.connect(URL);
         console.log('Database connected successfully');
